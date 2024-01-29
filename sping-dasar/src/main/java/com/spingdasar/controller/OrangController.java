@@ -17,6 +17,7 @@ public class OrangController {
     @GetMapping
     public ResponseEntity<Object> data (){
         List<Orang> result = new ArrayList<>();
+        // test
 
         Orang orang = new Orang("topa","laki-laki","11","Pamarican");
         result.add(orang);
