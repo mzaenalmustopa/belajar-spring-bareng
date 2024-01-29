@@ -25,11 +25,15 @@ public class ListController {
 
 
         List<Mahasiswa> mahasiswa = Arrays.asList(
+                // tanpa alamat
                 new Mahasiswa("Dani","Laki-laki","20","Informatika","Teknk",3),
+                // with alamat
                 new Mahasiswa("Sabil","Laki-laki","20",
                         new Alamat(1,"Jl.Pamarican","Sukahurip","Pamarican","Ciamis","Jabar","Indonesia"),
                         "Informatika","Teknk",4),
+                // tanpa alamat
                 new Mahasiswa("Topa","Laki-laki","20","Informatika","Teknk",5),
+                // with alamat
                 new Mahasiswa("Diktya","Laki-laki","20",
                         new Alamat(1,"Oke","Pamarican","Ciamis","Ciamis","Jabar","Indonesia")
                         ,"Informatika","Teknk",5)
