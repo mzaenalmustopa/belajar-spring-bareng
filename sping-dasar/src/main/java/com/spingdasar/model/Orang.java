@@ -6,6 +6,13 @@ public class Orang {
     private String umur;
     private String alamat;
 
+    public Orang(String nama, String jk, String umur, String alamat) {
+        this.nama = nama;
+        this.jk = jk;
+        this.umur = umur;
+        this.alamat = alamat;
+    }
+
     public String getNama() {
         return nama;
     }
