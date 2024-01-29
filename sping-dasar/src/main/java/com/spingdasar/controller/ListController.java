@@ -1,6 +1,10 @@
 package com.spingdasar.controller;
 
 import com.spingdasar.model.*;
+import com.spingdasar.modelsabil.Anak;
+import com.spingdasar.modelsabil.Ayah;
+import com.spingdasar.modelsabil.Ibu;
+import org.apache.coyote.Response;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -34,6 +38,25 @@ public class ListController {
         result.add(kelas);
         Kelas kelas2 = new Kelas("KS123", matakuliah2, dosen, "Senin", mahasiswa);
         result.add(kelas2);
+
+        return ResponseEntity.ok().body(result);
+    }
+
+    @GetMapping("/orang1")
+    public ResponseEntity<Object> data1(){
+        List<Ibu> result = new ArrayList<>();
+
+        Anak anak = new Anak("Dani","18","Laki-laki","Pamarican");
+        Ayah ayah = new Ayah("Aditya","29","Laki-laki", "Pasuruan");
+        Alamat alamat = new Alamat(10,"Jl.Pamarican","Sukahurip","Pamarican","Ciamis","JawaBarat","Indonesia");
+
+
+
+        Ibu ibu = new Ibu("Ibu Ani","25","Wanita",anak, ayah, alamat);
+        result.add(ibu);
+
+        List<Anak> anakList = new ArrayList<>();
+
 
         return ResponseEntity.ok().body(result);
     }
