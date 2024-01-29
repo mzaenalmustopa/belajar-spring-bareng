@@ -1,16 +1,16 @@
 package com.spingdasar.model;
 
-public class Mahasiswa {
-    private String nama;
+public class Mahasiswa extends Orang {
     private String jurusan;
     private String fakultas;
+    private Integer semester;
 
-    public String getNama() {
-        return nama;
-    }
 
-    public void setNama(String nama) {
-        this.nama = nama;
+    public Mahasiswa(String nama, String jk, String umur, String alamat, String jurusan, String fakultas, Integer semester) {
+        super(nama, jk,umur,alamat);
+        this.jurusan = jurusan;
+        this.fakultas = fakultas;
+        this.semester = semester;
     }
 
     public String getJurusan() {
@@ -27,5 +27,13 @@ public class Mahasiswa {
 
     public void setFakultas(String fakultas) {
         this.fakultas = fakultas;
+    }
+
+    public Integer getSemester() {
+        return semester;
+    }
+
+    public void setSemester(Integer semester) {
+        this.semester = semester;
     }
 }

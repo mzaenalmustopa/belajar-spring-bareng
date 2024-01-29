@@ -13,6 +13,11 @@ public class Orang {
         this.alamat = alamat;
     }
 
+    public Orang(String nama, String jk) {
+        this.nama =nama;
+        this.jk = jk;
+    }
+
     public String getNama() {
         return nama;
     }
