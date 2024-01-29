@@ -1,21 +1,19 @@
-package com.spingdasar.model;
+package com.spingdasar.model_diktya;
 
-public class Orang {
+import java.util.List;
+
+public class Orang extends Alamat {
     private String nama;
     private String jk;
     private String umur;
-    private String alamat;
+    private Alamat alamat;
 
-    public Orang(String nama, String jk, String umur, String alamat) {
+    public Orang(String noBlok, String jalan, String dusun, String desa, String kecamatan, String provinsi, String negara, String nama, String jk, String umur, Alamat alamat) {
+        super(noBlok, jalan, dusun, desa, kecamatan, provinsi, negara);
         this.nama = nama;
         this.jk = jk;
         this.umur = umur;
         this.alamat = alamat;
-    }
-
-    public Orang(String nama, String jk) {
-        this.nama =nama;
-        this.jk = jk;
     }
 
     public String getNama() {
@@ -42,11 +40,11 @@ public class Orang {
         this.umur = umur;
     }
 
-    public String getAlamat() {
+    public Alamat getAlamat() {
         return alamat;
     }
 
-    public void setAlamat(String alamat) {
+    public void setAlamat(Alamat alamat) {
         this.alamat = alamat;
     }
 }
