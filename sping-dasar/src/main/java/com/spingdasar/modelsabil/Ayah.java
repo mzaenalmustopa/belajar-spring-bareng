@@ -1,12 +1,14 @@
 package com.spingdasar.modelsabil;
 
+import com.spingdasar.model.Alamat;
+
 public class Ayah {
     private String nama;
     private String umur;
     private String jk;
-    private String alamat;
+    private Alamat alamat;
 
-    public Ayah(String nama, String umur, String jk, String alamat) {
+    public Ayah(String nama, String umur, String jk, Alamat alamat) {
         this.nama = nama;
         this.umur = umur;
         this.jk = jk;
@@ -37,11 +39,11 @@ public class Ayah {
         this.jk = jk;
     }
 
-    public String getAlamat() {
+    public Alamat getAlamat() {
         return alamat;
     }
 
-    public void setAlamat(String alamat) {
+    public void setAlamat(Alamat alamat) {
         this.alamat = alamat;
     }
 }

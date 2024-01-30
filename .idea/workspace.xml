@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70776b21-aa65-4a0d-a537-6e202c8dea02" name="Changes" comment="" />
+    <list default="true" id="70776b21-aa65-4a0d-a537-6e202c8dea02" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sping-dasar/src/main/java/com/spingdasar/controller/ListController.java" beforeDir="false" afterPath="$PROJECT_DIR$/sping-dasar/src/main/java/com/spingdasar/controller/ListController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sping-dasar/src/main/java/com/spingdasar/modelsabil/Anak.java" beforeDir="false" afterPath="$PROJECT_DIR$/sping-dasar/src/main/java/com/spingdasar/modelsabil/Anak.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sping-dasar/src/main/java/com/spingdasar/modelsabil/Ayah.java" beforeDir="false" afterPath="$PROJECT_DIR$/sping-dasar/src/main/java/com/spingdasar/modelsabil/Ayah.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,9 +30,9 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2bc5due526qlnY8Dvi7VASDcszk" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
@@ -41,6 +46,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "sabil",
     "last_opened_file_path": "D:/belajar-spring-bareng",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -73,7 +79,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1706501616625</updated>
-      <workItem from="1706501617741" duration="8246000" />
+      <workItem from="1706501617741" duration="10046000" />
+      <workItem from="1706579022384" duration="2897000" />
     </task>
     <servers />
   </component>

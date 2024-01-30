@@ -46,8 +46,8 @@ public class ListController {
     public ResponseEntity<Object> data1(){
         List<Ibu> result = new ArrayList<>();
 
-        Anak anak = new Anak("Dani","18","Laki-laki","Pamarican");
-        Ayah ayah = new Ayah("Aditya","29","Laki-laki", "Pasuruan");
+        Anak anak = new Anak("Dani","18","Laki-laki", new Alamat(5,"jalan.ciparakan", "sukahurip","pamarikan","ciamis","jawa barat", "indonesia"));
+        Ayah ayah = new Ayah("Aditya","29","Laki-laki", new Alamat(6,"jalan.ciparakan", "pamarikan","sukahurip","bandung","jawa timur", "indonesia"));
         Alamat alamat = new Alamat(10,"Jl.Pamarican","Sukahurip","Pamarican","Ciamis","JawaBarat","Indonesia");
 
 
