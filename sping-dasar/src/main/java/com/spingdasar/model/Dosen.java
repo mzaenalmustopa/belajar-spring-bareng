@@ -1,5 +1,10 @@
 package com.spingdasar.model;
 
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
 public class Dosen extends Orang {
 
     private String title;
@@ -20,22 +25,6 @@ public class Dosen extends Orang {
     public Dosen(String nama, String jk, String umur,  String title, String nip) {
         super(nama, jk, umur);
         this.title = title;
-        this.nip = nip;
-    }
-
-    public String getTitle() {
-        return title;
-    }
-
-    public void setTitle(String title) {
-        this.title = title;
-    }
-
-    public String getNip() {
-        return nip;
-    }
-
-    public void setNip(String nip) {
         this.nip = nip;
     }
 }

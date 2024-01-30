@@ -1,5 +1,10 @@
 package com.spingdasar.model;
 
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
 public class Mahasiswa extends Orang {
     private String jurusan;
     private String fakultas;
@@ -16,30 +21,6 @@ public class Mahasiswa extends Orang {
         super(nama, jk,umur, alamat);
         this.jurusan = jurusan;
         this.fakultas = fakultas;
-        this.semester = semester;
-    }
-
-    public String getJurusan() {
-        return jurusan;
-    }
-
-    public void setJurusan(String jurusan) {
-        this.jurusan = jurusan;
-    }
-
-    public String getFakultas() {
-        return fakultas;
-    }
-
-    public void setFakultas(String fakultas) {
-        this.fakultas = fakultas;
-    }
-
-    public Integer getSemester() {
-        return semester;
-    }
-
-    public void setSemester(Integer semester) {
         this.semester = semester;
     }
 }
