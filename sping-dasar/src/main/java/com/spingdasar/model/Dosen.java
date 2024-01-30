@@ -15,16 +15,4 @@ public class Dosen extends Orang {
         this.title = title;
         this.nip = nip;
     }
-
-    public Dosen(String nama, String jk, String title, String nip) {
-        super(nama, jk);
-        this.title = title;
-        this.nip = nip;
-    }
-
-    public Dosen(String nama, String jk, String umur,  String title, String nip) {
-        super(nama, jk, umur);
-        this.title = title;
-        this.nip = nip;
-    }
 }
