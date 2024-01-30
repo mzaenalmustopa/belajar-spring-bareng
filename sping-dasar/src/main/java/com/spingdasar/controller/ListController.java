@@ -46,4 +46,9 @@ public class ListController {
 
         return ResponseEntity.ok().body(result);
     }
+
+    @GetMapping("/kampus")
+    public Kampus get(){
+        return new Kampus("UGM","Jogja","Sabil");
+    }
 }
