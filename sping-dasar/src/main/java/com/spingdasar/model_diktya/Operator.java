@@ -7,8 +7,15 @@ public class Operator extends Orang{
     private String shift;
     private String noLine;
 
-    public Operator(String noBlok, String jalan, String dusun, String desa, String kecamatan, String provinsi, String negara, String nama, String jk, String umur, List<Alamat> alamat, String kodeOpt, String shift, String noLine) {
-        super(noBlok, jalan, dusun, desa, kecamatan, provinsi, negara, nama, jk, umur, alamat);
+    public Operator(String nama, String jk, String umur, Alamat alamat, String kodeOpt, String shift, String noLine) {
+        super(nama, jk, umur, alamat);
+        this.kodeOpt = kodeOpt;
+        this.shift = shift;
+        this.noLine = noLine;
+    }
+
+    public Operator(String nama, String jk, String umur, String kodeOpt, String shift, String noLine) {
+        super(nama, jk, umur);
         this.kodeOpt = kodeOpt;
         this.shift = shift;
         this.noLine = noLine;

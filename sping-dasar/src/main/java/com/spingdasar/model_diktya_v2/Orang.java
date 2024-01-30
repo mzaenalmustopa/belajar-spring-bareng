@@ -1,8 +1,7 @@
-package com.spingdasar.model_diktya;
-
-import java.util.List;
+package com.spingdasar.model_diktya_v2;
 
 public class Orang {
+
     private String nama;
     private String jk;
     private String umur;
@@ -13,17 +12,6 @@ public class Orang {
         this.jk = jk;
         this.umur = umur;
         this.alamat = alamat;
-    }
-
-    public Orang(String nama, String jk, String umur) {
-        this.nama = nama;
-        this.jk = jk;
-        this.umur = umur;
-    }
-
-    public Orang(String nama, String jk) {
-        this.nama = nama;
-        this.jk = jk;
     }
 
     public String getNama() {

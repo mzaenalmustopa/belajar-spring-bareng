@@ -7,8 +7,8 @@ public class Leader extends Orang{
     private String title;
     private String experince;
 
-    public Leader( String nip, String title, String experince, String nama, String jk, String umur, List<Alamat> alamat ,String noBlok, String jalan, String dusun, String desa, String kecamatan, String provinsi, String negara) {
-        super(noBlok, jalan, dusun, desa, kecamatan, provinsi, negara, nama, jk, umur, alamat);
+    public Leader(String nama, String jk, String umur,  String nip, String title, String experince, Alamat alamat) {
+        super(nama, jk, umur, alamat);
         this.nip = nip;
         this.title = title;
         this.experince = experince;

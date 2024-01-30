@@ -1,7 +1,8 @@
-package com.spingdasar.model_diktya;
+package com.spingdasar.model_diktya_v2;
 
 public class Alamat {
-    private String noBlok;
+
+    private String no;
     private String jalan;
     private String dusun;
     private String desa;
@@ -10,8 +11,8 @@ public class Alamat {
     private String provinsi;
     private String negara;
 
-    public Alamat(String noBlok, String jalan, String dusun, String desa, String kecamatan, String kota, String provinsi, String negara) {
-        this.noBlok = noBlok;
+    public Alamat(String no, String jalan, String dusun, String desa, String kecamatan, String kota, String provinsi, String negara) {
+        this.no = no;
         this.jalan = jalan;
         this.dusun = dusun;
         this.desa = desa;
@@ -21,12 +22,12 @@ public class Alamat {
         this.negara = negara;
     }
 
-    public String getNoBlok() {
-        return noBlok;
+    public String getNo() {
+        return no;
     }
 
-    public void setNoBlok(String noBlok) {
-        this.noBlok = noBlok;
+    public void setNo(String no) {
+        this.no = no;
     }
 
     public String getJalan() {
@@ -59,6 +60,14 @@ public class Alamat {
 
     public void setKecamatan(String kecamatan) {
         this.kecamatan = kecamatan;
+    }
+
+    public String getKota() {
+        return kota;
+    }
+
+    public void setKota(String kota) {
+        this.kota = kota;
     }
 
     public String getProvinsi() {
