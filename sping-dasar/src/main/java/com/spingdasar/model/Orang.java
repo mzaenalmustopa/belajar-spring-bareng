@@ -4,9 +4,9 @@ public class Orang {
     private String nama;
     private String jk;
     private String umur;
-    private String alamat;
+    private Alamat alamat;
 
-    public Orang(String nama, String jk, String umur, String alamat) {
+    public Orang(String nama, String jk, String umur, Alamat alamat) {
         this.nama = nama;
         this.jk = jk;
         this.umur = umur;
@@ -16,6 +16,12 @@ public class Orang {
     public Orang(String nama, String jk) {
         this.nama =nama;
         this.jk = jk;
+    }
+
+    public Orang(String nama, String jk, String umur) {
+        this.nama = nama;
+        this.jk = jk;
+        this.umur = umur;
     }
 
     public String getNama() {
@@ -42,11 +48,11 @@ public class Orang {
         this.umur = umur;
     }
 
-    public String getAlamat() {
+    public Alamat getAlamat() {
         return alamat;
     }
 
-    public void setAlamat(String alamat) {
+    public void setAlamat(Alamat alamat) {
         this.alamat = alamat;
     }
 }
